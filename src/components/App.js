@@ -3,11 +3,6 @@ import React from "react";
 import './../styles/App.css';
 
 const App = () => {
-  return (
-    <div>
-        {/* Do not remove the main div */}import React, { useEffect, useState } from "react";
-
-const App = () => {
   const[num, setNum]=useState(0)
   const[sum, setSum]=useState(0)
 
@@ -36,9 +31,3 @@ const App = () => {
 }
 export default App
 
-    
-    </div>
-  )
-}
-
-export default App
