@@ -14,10 +14,9 @@ const App = () => {
   }, [num]);
 
   return (
-    <div className="m-6 flex flex-col">
-      <h1 className="font-bold font-serif text-3xl p-8">Sum Calculator</h1>
+    <div>
+      <h1>Sum Calculator</h1>
       <input
-        className="border border-gray-400 w-[300px]"
         value={num}
         onChange={(e) => {
           const value = parseInt(e.target.value);
@@ -25,8 +24,8 @@ const App = () => {
         }}
         type="number"
       />
-      <h1 className="py-4">Sum: {sum}</h1>
-      <hr className="border border-gray-400" />
+      <h1>Sum: {sum}</h1>
+      {/* <hr className="border border-gray-400" /> */}
     </div>
   );
 };
