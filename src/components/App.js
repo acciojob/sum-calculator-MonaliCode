@@ -3,7 +3,7 @@ import './../styles/App.css';
 
 const App = () => {
   const [num, setNum] = useState();
-  const [sum, setSum] = useState(0);
+  const [sum, setSum] = useState();
 
   useEffect(() => {
     if (num > 0) {
