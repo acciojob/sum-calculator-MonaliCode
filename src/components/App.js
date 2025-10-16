@@ -17,7 +17,6 @@ const App = () => {
             setCurr(e.target.value)
         }
       }
-        type="number"
       />
       <p>Sum: {sum}</p>
       {/* <hr className="border border-gray-400" /> */}
